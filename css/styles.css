@@ -1,10 +1,17 @@
-.common-rule {
-  list-style: upper-roman;
-  font-size: 20px;
+.btn {
+  border: none;
+  padding: 0.25rem 1.25rem;
 }
-.first-rule {
+
+.link {
+  text-decoration: none;
+  color: navy;
+}
+/* Напиши свой код под этой строкой */
+.btn.active {
   color: red;
 }
-.last-rule {
-  color: green;
+
+.link.active {
+  font-weight: 700;
 }
