@@ -1,9 +1,9 @@
 .link {
   text-decoration: none;
 }
-[href$='html'] {
+[href*='about'] {
   color: green;
 }
-[href$='css'] {
+[href*='com'] {
   color: orangered;
 }
