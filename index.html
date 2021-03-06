@@ -8,9 +8,28 @@
     <link rel="stylesheet" href="./css/styles.css">
 </head>
 <body>
-<h4 class="title headline" title="1">1</h4>
-<h4 class="title headline" title="2">2</h4>
-<h4 class="title headline" title="3">3</h4>
-</body>
+<ul class="cards">
+    <li class="card">
+        <h4 class="card-title">Заголовок карточки 1</h4>
+        <p class="card-description">
+            Текст - описание для карточки 1.
+        </p>
+    </li>
+    <li class="card">
+        <h4 class="card-title">Заголовок карточки 2</h4>
+        <p class="card-description">
+            Текст - описание для карточки 2.
+        </p>
+    </li>
+    <li class="card last-of-type">
+        <h4 class="card-title">Заголовок карточки 3</h4>
+        <p class="card-description">
+            Текст - описание для карточки 3.
+        </p>
+    </li>
+</ul></body>
 </html>
-<!--Не меняя селекторы и правила CSS сделай так, чтобы цвет текста всех элементов стал maroon (перемести CSS правила).-->
+<!--В коде html есть элемент ul с классом cards и есть последний элемент li с классом last-of-type. С помощью наследования нужно изменить цвет текста для элементов-потомков этих двух элементов. Для этого необходимо:
+
+селектору класса cards задать цвет текста navy;
+селектору класса last-of-type задать цвет текста firebrick-->

@@ -1,7 +1,6 @@
-.headline.title {
+.cards {
   color: navy;
 }
-
-.title[title] {
-  color: maroon;
+.last-of-type {
+  color: firebrick;
 }
