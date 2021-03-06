@@ -1,3 +1,7 @@
-.item-2 ~ .item {
-  color: red;
+.headline.title {
+  color: navy;
+}
+
+.title[title] {
+  color: maroon;
 }
