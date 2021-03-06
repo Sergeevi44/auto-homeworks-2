@@ -1,9 +1,8 @@
-.link {
-  text-decoration: none;
+.warning {
+  background-color: white;
+  color: red;
 }
-[href*='about'] {
-  color: green;
-}
-[href*='com'] {
-  color: orangered;
+#sending {
+  background-color: teal;
+  color: white;
 }

@@ -8,31 +8,10 @@
     <link rel="stylesheet" href="./css/styles.css">
 </head>
 <body>
-<ul>
-    <li>
-        <a class="link" href="./index.html">На главную</a>
-    </li>
-    <li>
-        <a class="link" href="./about-book.html">О книге</a>
-    </li>
-    <li>
-        <a class="link" href="./about-author.html">Об авторе</a>
-    </li>
-</ul>
-
-<ul>
-    <li>
-        <a class="link" href="https://www.google.com/">Google</a>
-    </li>
-    <li>
-        <a class="link" href="https://developer.mozilla.org/ru/docs/web/css">MDN + CSS</a>
-    </li>
-    <li>
-        <a class="link" href="https://stackoverflow.com/questions/tagged/css">StackOverflow + CSS</a>
-    </li>
-</ul>
+<div class="warning" id="sending">Использование id в качестве селектора в большинстве случаев является плохой практикой.
+    Потому что приводят к дублированию кода и, как следствие, к излишней сложности кода.</div>
 </body>
 </html>
-<!-- Для атрибутов, содержащих about задай цвет текста green.
-Для атрибутов, содержащих com задай цвет текста orangered.
-Специфичность селекторов должна быть минимальной.-->
+<!-- Добавь CSS правило с id селектором sending со свойством background-color и значением teal, со свойством color и значением white.
+
+Обрати внимание на то что у id более высокий приоритет, чем у класса.-->
