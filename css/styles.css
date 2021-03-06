@@ -1,8 +1,10 @@
-li {
-  list-style: none;
-  color: green;
-}
-.rule {
+.common-rule {
   list-style: upper-roman;
-  color: navy;
+  font-size: 20px;
+}
+.first-rule {
+  color: red;
+}
+.last-rule {
+  color: green;
 }
