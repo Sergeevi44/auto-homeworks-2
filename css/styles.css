@@ -1,12 +1,9 @@
-div {
-  background-color: navy !important;
-  color: white !important;
+ul {
+  padding: 0;
+  list-style: none;
 }
-.warning {
-  background-color: white;
-  color: red;
-}
-#inline {
-  background-color: red;
-  color: white;
+
+.menu > .menu-item {
+  display: inline-block;
+  vertical-align: top;
 }

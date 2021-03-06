@@ -8,11 +8,28 @@
     <link rel="stylesheet" href="./css/styles.css">
 </head>
 <body>
-<div class="warning" id="inline" style="background-color: orange; color: navy;">Использование !important крайне
-    нежелательно. Этот способ повысить приоритет до неизменяемого применяют обычно только для оформления предупреждений
-    или сообщений об ошибках приложения.</div>
+<ul class="menu">
+    <li class="menu-item">
+        <a href="#" class="menu-link">Меню 1</a>
+    </li>
+    <li class="menu-item">
+        <ul class="sub-menu">
+            <li class="menu-item">
+                <a href="#" class="menu-link">Sub Меню 1</a>
+            </li>
+            <li class="menu-item">
+                <a href="#" class="menu-link">Sub Меню 2</a>
+            </li>
+            <li class="menu-item">
+                <a href="#" class="menu-link">Sub Меню 3</a>
+            </li>
+        </ul>
+        <a href="#" class="menu-link">Меню 2</a>
+    </li>
+    <li class="menu-item">
+        <a href="#" class="menu-link">Меню 3</a>
+    </li>
+</ul>
 </body>
 </html>
-<!-- Добавь !important обеим значениям свойств селектора div.
-
-Обрати внимание на то что у div приоритет изменился и стал более высоким чем у инлайн.-->
+<!-- Добавь к селектору menu-item еще один класс menu так, чтобы оба свойства display и vertical-align применились только к прямым потомкам класса menu, но не к потомкам sub-menu-->
