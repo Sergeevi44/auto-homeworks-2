@@ -1,9 +1,9 @@
 .link {
   text-decoration: none;
 }
-[href^='./'] {
-  color: red;
+[href$='html'] {
+  color: green;
 }
-[href^='https'] {
-  color: navy;
+[href$='css'] {
+  color: orangered;
 }
