@@ -8,49 +8,12 @@
     <link rel="stylesheet" href="./css/styles.css">
 </head>
 <body>
-<ul class="menu">
-    <li class="menu-item">
-        <a href="#" class="menu-link">Меню 1</a>
-    </li>
-    <li class="menu-item">
-        <a href="#" class="menu-link">Меню 2 ▼</a>
-        <ul class="sub-menu">
-            <li class="menu-item">
-                <a href="#" class="menu-link">Sub Меню 1</a>
-            </li>
-            <li class="menu-item">
-                <a href="#" class="menu-link">Sub Меню 2 ▼</a>
-                <ul class="sub-menu">
-                    <li class="menu-item">
-                        <a href="#" class="menu-link">Sub Меню 1</a>
-                    </li>
-                    <li class="menu-item">
-                        <a href="#" class="menu-link">Sub Меню 2</a>
-                    </li>
-                    <li class="menu-item">
-                        <a href="#" class="menu-link">Sub Меню 3</a>
-                    </li>
-                </ul>
-            </li>
-            <li class="menu-item">
-                <a href="#" class="menu-link">Sub Меню 3</a>
-            </li>
-            <li class="menu-item">
-                <a href="#" class="menu-link">Sub Меню 4</a>
-            </li>
-        </ul>
-    </li>
-    <li class="menu-item">
-        <a href="#" class="menu-link">Меню 3</a>
-    </li>
+<ul class="items">
+    <li class="item item-1">1-й сосед</li>
+    <li class="item item-2">2-й сосед</li>
+    <li class="item item-3">3-й сосед</li>
+    <li class="item item-4">4-й сосед</li>
 </ul>
 </body>
 </html>
-<!-- В html коде дано меню, которое содержит два подменю, вложенных одно в другое. В css кода все подменю с классом sub-menu скрыты с помощью свойства opacity. Необходимо разместить элементы li списка с классом menu по горизонтали, а li списков с классом sub-menu должны остаться в вертикальном положении. Также при наведении курсором на элемент li должно показываться скрытое меню.
-
-Для этого
-
-Добавь к селектору menu все элементы с селектором класса menu-item, которые являются первыми потомками списка с классом menu.
-Добавь к селектору sub-menu все элементы с селектором класса menu-item, которые являются потомками списка с классом sub-menu на любом уровне вложенности.
-Добавь к селектору menu-item:hover все элементы, которые являются потомками элемента с классом menu-item на любом уровне вложенности.
-Обрати внимание на поведение элементов меню при hover до и после успешного выполнения задания-->
+<!-- Добавь к селектору item-1 еще один класс item так, чтобы свойство color: red применилось только к первому соседу - элементу с классом item-2-->
