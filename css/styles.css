@@ -1,8 +1,12 @@
+div {
+  background-color: navy !important;
+  color: white !important;
+}
 .warning {
   background-color: white;
   color: red;
 }
 #inline {
-  background-color: teal;
+  background-color: red;
   color: white;
 }
