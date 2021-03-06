@@ -8,11 +8,11 @@
     <link rel="stylesheet" href="./css/styles.css">
 </head>
 <body>
-<div class="container">
-    <div class="box opacity">Opacity</div>
-    <div class="box transparent">Transparent</div>
-</div>
+<button data-color="rgba">rgba</button>
+<button data-color="hsla">hsla</button>
+<button data-color="hexa">hexa</button>
 </body>
 </html>
-<!--Задай свойство opacity селекторам .opacity:hover и .opacity:focus так, чтобы прозрачность отсутствовала.
-Задай свойству background-color селекторам .transparent:hover и .transparent:focus значение - именованный цвет прозрачности. -->
+<!--Задай свойству background-color селектору [data-color="rgba"]:hover значение - полупрозрачный цвет в формате rgba вместо заданного в формате rgb.
+Задай свойству background-color селектору [data-color="hsla"]:hover значение - полупрозрачный цвет в формате hsla вместо заданного в формате hsl.
+Задай свойству background-color селектору [data-color="hexa"]:hover значение - полупрозрачный цвет в формате hexa вместо заданного в формате hex. -->
