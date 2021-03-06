@@ -1,6 +1,9 @@
-[type] {
-  color: white;
+.link {
+  text-decoration: none;
 }
-button[type='reset'] {
-  color: green;
+[href^='./'] {
+  color: red;
+}
+[href^='https'] {
+  color: navy;
 }
