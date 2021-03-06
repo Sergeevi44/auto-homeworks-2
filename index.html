@@ -8,28 +8,12 @@
     <link rel="stylesheet" href="./css/styles.css">
 </head>
 <body>
-<ul class="cards">
-    <li class="card">
-        <h4 class="card-title">Заголовок карточки 1</h4>
-        <p class="card-description">
-            Текст - описание для карточки 1.
-        </p>
+<ul class="list">
+    <li class="list-item">По умолчанию в браузере цвет текста - черный</li>
+    <li class="list-item"><a class="list-link" href="#">По умолчанию в браузере цвет ссылки - синий с подчеркиванием</a>
     </li>
-    <li class="card">
-        <h4 class="card-title">Заголовок карточки 2</h4>
-        <p class="card-description">
-            Текст - описание для карточки 2.
-        </p>
-    </li>
-    <li class="card last-of-type">
-        <h4 class="card-title">Заголовок карточки 3</h4>
-        <p class="card-description">
-            Текст - описание для карточки 3.
-        </p>
-    </li>
-</ul></body>
+    <li class="list-item">По умолчанию у списка `padding-left` равен `40px`</li>
+</ul>
+</body>
 </html>
-<!--В коде html есть элемент ul с классом cards и есть последний элемент li с классом last-of-type. С помощью наследования нужно изменить цвет текста для элементов-потомков этих двух элементов. Для этого необходимо:
-
-селектору класса cards задать цвет текста navy;
-селектору класса last-of-type задать цвет текста firebrick-->
+<!--Т.к. цвет текста для ссылок не наследуется, то задай ссылке цвет green, используя класс в качестве селектора-->

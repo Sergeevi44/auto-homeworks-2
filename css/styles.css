@@ -1,6 +1,8 @@
-.cards {
-  color: navy;
+.list {
+  padding-left: 0;
+  list-style: none;
+  color: green;
 }
-.last-of-type {
-  color: firebrick;
+.list-link {
+  color: green;
 }
